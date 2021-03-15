@@ -5,9 +5,9 @@
 void * anyfunc (void * arg)
 {
     int a = *(int*) arg;
-    fprintf (stderr, "Hello World "
-
+    fprintf (stderr, "Hello World"
             "with argument=%d\n", a);
+    
     return NULL;
 }
 
