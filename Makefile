@@ -11,5 +11,5 @@ $(NAME): $(NAME).o
 	$(CC) -Wall -o $@ $^
 
 clean:
-	$(CLEAN) *.0
+	$(CLEAN) *.o
 	$(CLEAN) $(NAME)	
